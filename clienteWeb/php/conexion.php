@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $password="";
-$db="myapp";
+$db="metromobile";
 $con = new mysqli($host,$user,$password,$db);
 
 ?>
