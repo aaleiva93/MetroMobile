@@ -25,6 +25,10 @@
 		    <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electronico">
 		  </div>
 		  <div class="form-group">
+		    <label for="username">Numero de Telefono</label>
+		    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Numero de Telefono">
+		  </div>
+		  <div class="form-group">
 		    <label for="password">Contrase&ntilde;a</label>
 		    <input type="password" class="form-control" id="password" name="password" placeholder="Contrase&ntilde;a">
 		  </div>
