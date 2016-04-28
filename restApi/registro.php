@@ -9,7 +9,7 @@ include "php/conexion.php";
 
 $app = new \Slim\Slim();
 
-$app->post("/añadir-usuario", function() use($con,$app){
+$app->post("/registrar-conductor", function() use($con,$app){
 	$query="INSERT INTO conductores VALUES (NULL,"
 	. "'{$app->request->post("fullname")}',"
 	. "'{$app->request->post("username")}',"
